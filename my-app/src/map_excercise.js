@@ -26,7 +26,7 @@ export default function map_excercise() {
       { artist: 'Justin Bieber', name: 'Purpose', sales: 554000 }
     ];
   
-    const albumSalesStrings =  musicData.map(album => `${album.name} by ${album.artist} sold ${album.sales} copies`);
+    const albumSalesStrings =  musicData.map(album => `DS ${album.name} by ${album.artist} sold ${album.sales} copies`);
   
   
     console.log(albumSalesStrings);
