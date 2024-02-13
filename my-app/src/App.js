@@ -4,7 +4,7 @@ import map_excercise from './map_excercise';
 import filter_excercise from './filter_excercise';
 
 function App() {
-  map_excercise();
+  filter_excercise();
   return (
     <div className="App">
       <header className="App-header">

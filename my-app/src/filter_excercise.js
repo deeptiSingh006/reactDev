@@ -25,7 +25,6 @@ const musicData = [
     { artist: 'Justin Bieber', name: 'Purpose', sales: 554000 }
   ];
   
-  const results = 'Replace this message with your code!';
-  
+  const results = musicData.filter(album=>album.name.length>=10 && album.name.length<=25 );
   console.log(results);
 };
