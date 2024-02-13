@@ -2,9 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import map_excercise from './map_excercise';
 import filter_excercise from './filter_excercise';
-
+import filter_map from './filter_map_exercise';
 function App() {
-  filter_excercise();
+  filter_map();
   return (
     <div className="App">
       <header className="App-header">
